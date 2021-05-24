@@ -1,0 +1,39 @@
+#nav {
+    background-color: var(--nav);
+    padding         : 10px;
+    font-weight     : 600;
+    transition      : 0.3s ease-in;
+}
+
+#navdar {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    list-style     : none;
+    flex-wrap      : wrap;
+    margin         : auto;
+    max-width      : 800px;
+}
+
+#navdar a {
+    color: var(--nav-btn);
+}
+
+#user_logedin {
+    display: none;
+}
+
+#login_nav,
+#signup_nav {
+    background-color: var(--nav-log);
+    padding         : 5px;
+    border-radius   : 5px;
+    color           : var(--nav-log-color);
+}
+
+
+.active_nav {
+    color        : var(--nav-active) !important;
+    border-bottom: 1px solid;
+    padding      : 2px 3px;
+}

@@ -1,0 +1,41 @@
+.catalog_conatiner {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-wrap      : wrap;
+    overflow       : auto;
+}
+
+.pagination {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    text-align     : center;
+    padding        : 10px 0;
+}
+
+.pagination a {
+    color           : black;
+    padding         : 8px 16px;
+    text-decoration : none;
+    background-color: rgb(157, 205, 253);
+    transition      : 0.5s;
+}
+
+/* Style the active/current link */
+.pagination a:hover {
+    background-color: dodgerblue;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.add_item_form {
+    position : absolute;
+    max-width: 1000px;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -35%);
+}

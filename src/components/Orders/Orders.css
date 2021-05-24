@@ -1,0 +1,13 @@
+.order {
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    justify-content : center;
+    align-items     : center;
+    background-color: blanchedalmond;
+    border-radius   : 5px;
+    padding         : 10px;
+    margin          : 10px;
+    width           : 200px;
+    height          : 400px;
+}

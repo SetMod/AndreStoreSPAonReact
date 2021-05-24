@@ -1,13 +1,54 @@
+:root {
+  --nav          : rgb(62, 87, 139);
+  --nav-btn      : rgb(255, 255, 255);
+  --nav-active   : rgb(153, 255, 213);
+  --nav-log      : rgb(69, 110, 165);
+  --nav-log-color: rgb(255, 255, 255);
+}
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
 body {
-  margin: 0;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(168, 82, 82);
+  outline         : 1px solid slategrey;
+}
+
+/*---------------------------------------------------------------------------*/
+button {
+  margin       : 5px 10px;
+  padding      : 5px 10px;
+  outline      : none;
+  border       : 1px solid #245;
+  border-radius: 5px;
+  font-weight  : 600;
+  color        : #245;
+}
+
+button:active {
+  background-color: #c3c3c3;
 }

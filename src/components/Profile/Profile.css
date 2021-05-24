@@ -1,0 +1,7 @@
+.profile {
+    background-color: rgb(255, 183, 183);
+    margin          : 10px;
+    padding         : 5px;
+    text-align      : left;
+    border-radius   : 5px;
+}

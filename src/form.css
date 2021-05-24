@@ -1,0 +1,63 @@
+.form_container {
+    background-color: rgb(53, 84, 124);
+    color           : #ebf8e1;
+    width           : 80%;
+    text-align      : left;
+    padding         : 10px;
+    margin          : 10px auto;
+}
+
+.form_buttons {
+    padding-top    : 10px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.form_container select {
+    margin: auto;
+    width : 100%;
+}
+
+select,
+option,
+input,
+textarea {
+    margin          : 5px 10px;
+    padding         : 5px 10px;
+    outline         : none;
+    background-color: rgb(253, 253, 253);
+    border          : 1px solid #245;
+    border-radius   : 5px;
+    font-weight     : 600;
+    color           : rgb(33, 62, 77);
+    transition      : 0.3s ease-in;
+}
+
+label {
+    font-size  : 20px;
+    font-weight: 600;
+    padding    : 5px 5px 0px 5px;
+}
+
+input[type='button'] {
+    width: fit-content;
+}
+
+input,
+textarea {
+    display: block;
+    width  : 100%;
+    margin : auto;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(33, 62, 77);
+    color           : rgb(253, 253, 253);
+}
+
+select:active,
+option:active {
+    background-color: rgb(164, 206, 248);
+}

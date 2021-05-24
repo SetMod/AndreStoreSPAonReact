@@ -1,0 +1,63 @@
+.card_container {
+    width           : 300px;
+    height          : 400px;
+    background-color: rgb(251, 220, 220);
+    border-radius   : 5px;
+    margin          : 10px;
+    font-size       : 20px;
+    overflow        : auto;
+    text-align      : left;
+}
+
+.card_image {
+    height          : 50%;
+    background-color: bisque;
+}
+
+.card_text {
+    margin       : 5px 5px;
+    border-radius: 5px;
+}
+
+.card_title {
+    background-color: rgb(188, 224, 253);
+    color           : rgb(0, 0, 0);
+}
+
+.card_sub_text {
+    width           : 100%;
+    background-color: rgb(250, 246, 207);
+    color           : rgb(0, 0, 0);
+}
+
+.add-to-cart-btn {
+    background-color: rgb(186, 253, 131);
+}
+
+.buttons-area {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.buttons-area button {
+    width    : 100%;
+    padding  : 3px 5px;
+    font-size: 18px;
+}
+
+.edt-btn {
+    background-color: rgb(251, 224, 149);
+}
+
+.edt-btn:active {
+    background-color: rgb(255, 217, 0);
+}
+
+.dlt-btn {
+    background-color: rgb(253, 122, 122);
+}
+
+.dlt-btn:active {
+    background-color: rgb(255, 0, 0);
+}
